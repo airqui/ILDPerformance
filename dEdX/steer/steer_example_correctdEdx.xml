@@ -126,7 +126,7 @@
     <!--parameters used in the outdated angular correction outdated_dedx= uncorrected_dedx / f, with f = 1. / ( 1.0+[1]*cos(theta)*cos(theta)/[0] )-->
     <parameter name="OutdatedAngularCorrectionParameters" type="FloatVec">0.635762 -0.0573237  </parameter>
     <!--parameter for new angular correction dedx= uncorrected_dedx  / f, with f= pol2(theta)-->
-    <parameter name="AngularCorrectionParameters" type="FloatVec">1.00e+00 1.20e-03 1.84e-05 </parameter>
+    <parameter name="AngularCorrectionParameters" type="FloatVec">1.00 0.00120075 0.000018624 </parameter>
     <!--verbosity level of this processor ("DEBUG0-4,MESSAGE0-4,WARNING0-4,ERROR0-4,SILENT")-->
     <!--parameter name="Verbosity" type="string">DEBUG </parameter-->
     <!--If set, the calculated dEdx value will be rewritten in the its corresponding track (default: false).-->
